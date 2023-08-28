@@ -1,0 +1,7 @@
+#A project to determine the hypotenuse side of a triangle
+
+adj = int(input("Input the adjacent number: "))
+opp = int(input("Input the opposite number: "))
+
+hyp = str((adj ** 2 + opp ** 2) ** 0.5)
+print("The hypotenuse is " + hyp)
